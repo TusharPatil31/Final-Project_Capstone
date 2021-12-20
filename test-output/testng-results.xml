@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="9" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="3170" started-at="2021-12-20T06:25:16Z" finished-at="2021-12-20T06:25:19Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="3170" started-at="2021-12-20T06:25:16Z" finished-at="2021-12-20T06:25:19Z">
+      <class name="test.PaymentTest">
+        <test-method status="PASS" signature="payment()[pri:0, instance:test.PaymentTest@cb0ed20]" name="payment" duration-ms="227" started-at="2021-12-20T06:25:19Z" finished-at="2021-12-20T06:25:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- payment -->
+      </class> <!-- test.PaymentTest -->
+      <class name="test.SignUpTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.SignUpTest@64f6106c]" name="setUp" is-config="true" duration-ms="963" started-at="2021-12-20T06:25:16Z" finished-at="2021-12-20T06:25:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="singup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.SignUpTest@64f6106c]" name="singup" duration-ms="753" started-at="2021-12-20T06:25:17Z" finished-at="2021-12-20T06:25:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tushar@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abcd123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[abcd123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Tushar]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Patil]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[24]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Kolhpur]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- singup -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:test.SignUpTest@64f6106c]" name="teardown" is-config="true" duration-ms="1" started-at="2021-12-20T06:25:19Z" finished-at="2021-12-20T06:25:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- test.SignUpTest -->
+      <class name="test.LoginTest">
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:test.LoginTest@553a3d88]" name="login" duration-ms="295" started-at="2021-12-20T06:25:17Z" finished-at="2021-12-20T06:25:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tushar@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abcd123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- test.LoginTest -->
+      <class name="test.AddProductTest">
+        <test-method status="PASS" signature="AddProduct()[pri:0, instance:test.AddProductTest@7a30d1e6]" name="AddProduct" duration-ms="616" started-at="2021-12-20T06:25:18Z" finished-at="2021-12-20T06:25:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddProduct -->
+      </class> <!-- test.AddProductTest -->
+      <class name="test.CheckOutTest">
+        <test-method status="PASS" signature="checkout()[pri:0, instance:test.CheckOutTest@5891e32e]" name="checkout" duration-ms="294" started-at="2021-12-20T06:25:18Z" finished-at="2021-12-20T06:25:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkout -->
+      </class> <!-- test.CheckOutTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
